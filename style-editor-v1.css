@@ -1,0 +1,244 @@
+
+@font-face {
+    font-family: 'sourcesanspro-semibold';
+    src: url('fonts/sourcesanspro-semibold.eot');
+    src: url('fonts/sourcesanspro-semibold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-semibold.woff') format('woff'),
+         url('fonts/sourcesanspro-semibold.ttf') format('truetype'),
+         url('fonts/sourcesanspro-semibold.svg#sourcesanspro-semibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.6em;
+    line-height: 1.42857;
+    color: #666;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: #176172;
+    font-family: 'sourcesanspro-semibold';
+    line-height: 1.2em;
+    font-weight: 500;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #176172;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.95em;
+    padding: .2em 0 .3em;
+}
+
+h2, .sectionTitle {
+    font-size: 1.45em;
+    padding: .2em 0 .3em;
+}
+
+h2:first-of-type {
+    margin-top: 0.2em;
+}
+
+h3 {
+    font-size: 1.25em;
+    padding: .2em 0 .3em;
+}
+
+h4, h5, h6 {
+    font-size: 1em;
+    padding: .2em 0 .3em;
+}
+
+blockquote {
+    background: #f1f8fb;
+    border-left: 5px solid #d1e2e8;
+    color: #777;
+    margin: 0 0 1.1em;
+    padding: .5em 1em;
+}
+
+blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    color: #359abe;
+    text-decoration: underline;
+}
+
+a:hover, a:focus {
+    color: #246a82;
+    text-decoration: underline;
+}
+
+.contentBox {
+    clear: both;
+    margin: 1.2em 0;
+    background: #f5f5f5;
+    border: 1px solid #d1e2e8;
+    padding: .15em .7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 2px solid #c0d3da;
+	clear: both;
+}
+
+.btn {
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.btn-primary {
+	background-color: #e80a88;
+    border-color: #d0097a;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+	background-color: #b7086b;
+    border-color: #950657;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.alert {
+    border: 1px solid #000;
+}
+
+.alert.alert-warning {
+
+}
+
+
+
+
+
+
+
+
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.wp-caption {
+    max-width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    background: #f2f9fd;
+    border: 1px solid #d1e2eb;
+    text-align: center;
+}
+
+.wp-caption-dt a {
+    float: left;
+}
+
+.wp-caption .wp-caption-dd {
+    margin: 0;
+    font-style: italic;
+    padding: 7px;
+    color: #38a4dc;
+    font-size: .85em;
+}
+
+.wp-caption.alignleft {
+    float: left;
+    display: block;
+    margin: 0 12px 20px 0;
+}
+
+.wp-caption.aligncenter {
+    margin: 8px auto;
+    display: block
+}
+
+.wp-caption.alignright {
+    float: right;
+    display: block;
+    margin: 0 0 20px 12px;
+}
+
+.wp-caption img {
+    padding: 3px 3px 0;
+}
+
+img.alignleft {
+    float: left;
+    display: block;
+    margin: 0 12px 20px 0;
+}
+
+img.aligncenter {
+    margin: 8px auto;
+    display: block;
+    clear: both;
+}
+
+img.alignright {
+    float: right;
+    display: block;
+    margin: 0 0 20px 12px;
+}
+
+
+@media (max-width: 580px) {
+    .wp-caption.alignright, img.alignright, img.alignright.wp-post-image {
+        float: none;
+        margin-left: 0;
+    }
+
+    .wp-caption.alignleft, img.alignleft, img.alignleft.wp-post-image {
+        float: none;
+        margin-left: 0;
+    }
+}
+
+
+
